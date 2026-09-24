@@ -48,7 +48,7 @@
 \newcommand{\fiotopo}{13.9}        % posicao do fio do cabecalho (cm a partir do topo)
 \newcommand{\fiorodape}{95.3}      % posicao do fio do rodape (cm a partir do topo)
 \newlength{\altcoluna}\setlength{\altcoluna}{\dimexpr 95.3cm-13.9cm-2cm\relax}
-\newcommand{\altlogo}{4.2cm}        % altura comum dos logos das afiliacoes
+\newcommand{\altlogo}{3.6cm}        % altura comum dos logos das afiliacoes
 \newcommand{\altlogorodape}{2.6cm}  % altura comum dos logos do rodape
 
 % ---- secoes: o \vfill antes de cada titulo absorve a sobra da coluna
@@ -174,7 +174,9 @@ The mitochondrial genome is a circular molecule of 10,479\,bp, 63\% longer than 
   {\includegraphics[width=26cm]{Genetica.pdf}};
 \node[anchor=south east,inner sep=0] (butantan) at (100cm-\margem,-\fiotopo cm+0.6cm)
   {\includegraphics[height=\altlogo]{Butantan.pdf}};
-\node[anchor=south east,inner sep=0] (charlotte) at ([xshift=-1.2cm]butantan.south west)
+\node[anchor=south east,inner sep=0] (leev) at ([xshift=-1.2cm]butantan.south west)
+  {\includegraphics[height=\altlogo]{LEEV.png}};
+\node[anchor=south east,inner sep=0] (charlotte) at ([xshift=-1.2cm]leev.south west)
   {\includegraphics[height=\altlogo]{Charlotte.png}};
 \node[anchor=south east,inner sep=0] (ib) at ([xshift=-1.2cm]charlotte.south west)
   {\includegraphics[height=\altlogo]{Bio.png}};
