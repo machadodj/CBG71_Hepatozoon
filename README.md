@@ -2,7 +2,7 @@
 
 Poster for the 71st Brazilian Congress of Genetics (Genética 2026), held in Florianópolis, Santa Catarina, Brazil, from September 29 to October 2, 2026.
 
-**Morphological and genomic characterization of a novel *Hepatozoon* lineage in the critically endangered insular pitviper *Bothrops sazimai* (Squamata: Serpentes: Viperidae)**
+**Morphological and genomic characterization of a novel *Hepatozoon* lineage from the critically endangered insular pitviper *Bothrops sazimai* (Squamata: Serpentes: Viperidae)**
 
 Giselle Pessanha Pessoa, Igor Salles de Oliveira, Giovanna Yumi Scorsim Omura, Denis Jacob Machado, Milton Yutaka Nishiyama Junior, and Maria José de Jesus Silva
 
@@ -42,7 +42,7 @@ The poster uses the TeX Gyre Heros font, which ships with TeX Live. Each poster 
 
 Our text and figures are available under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license (CC BY-NC-SA 4.0). See `LICENSE`.
 
-The license does not cover material owned by others. The logos belong to their organizations. Ricardo Sawaya holds the rights to the photograph in Figure 1. Figure 2 was created in BioRender (BioRender.com) and follows the BioRender terms of use.
+The license does not cover material owned by others. The logos belong to their organizations. Ricardo J. Sawaya holds the rights to the photograph in Figure 1, taken from ((o))eco (https://oeco.org.br/noticias/nova-jararaca-do-pedaco-vive-numa-ilha/). Figure 2 was created in BioRender (BioRender.com) and follows the BioRender terms of use.
 
 ## Contact
 
