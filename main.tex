@@ -14,6 +14,7 @@
 \usepackage{tikz}
 \usepackage{enumitem}
 \usepackage{ragged2e}
+\usepackage{fontawesome5}
 \graphicspath{{figures/}{logos/}}
 \pagestyle{empty}
 \pagecolor{white}
@@ -45,9 +46,9 @@
 \newlength{\margem}\setlength{\margem}{2cm}
 \newlength{\coluna}\setlength{\coluna}{47cm}
 \newlength{\vao}\setlength{\vao}{2cm}
-\newcommand{\fiotopo}{13.9}        % posicao do fio do cabecalho (cm a partir do topo)
+\newcommand{\fiotopo}{14.4}        % posicao do fio do cabecalho (cm a partir do topo)
 \newcommand{\fiorodape}{95.3}      % posicao do fio do rodape (cm a partir do topo)
-\newlength{\altcoluna}\setlength{\altcoluna}{\dimexpr 95.3cm-13.9cm-2cm\relax}
+\newlength{\altcoluna}\setlength{\altcoluna}{\dimexpr 95.3cm-14.4cm-2cm\relax}
 \newcommand{\altlogo}{3.6cm}        % altura comum dos logos das afiliacoes
 \newcommand{\altlogorodape}{2.6cm}  % altura comum dos logos do rodape
 
@@ -154,10 +155,10 @@ The mitochondrial genome is a circular molecule of 10,479\,bp, 63\% longer than 
 \begin{minipage}[t]{66cm}\RaggedRight
 {\fontsize{54}{62}\selectfont\bfseries\color{evento}
  Morphological and genomic characterization of a novel \Hep{} lineage from the critically endangered insular pitviper \Bsaz{} (Squamata: Serpentes: Viperidae)\par}
-\vspace{0.7cm}
+\vspace{0.4cm}
 {\fontsize{34}{40}\selectfont
- \textbf{Pessoa, G.\,P.}\textsuperscript{1,4}, Salles-Oliveira, I.\textsuperscript{1,3}, Omura, G.\,Y.\,S.\textsuperscript{5}, Jacob Machado, D.\textsuperscript{5,6,*}, Nishiyama-Júnior, M.\,Y.\textsuperscript{2}, Silva, M.\,J.\,J.\textsuperscript{1,3}\par}
-\vspace{0.45cm}
+ \textbf{Pessoa, G.\,P.}\textsuperscript{1,4}, Salles-Oliveira, I.\textsuperscript{1,3,{\color{evento}\faEnvelope[regular]}}, Omura, G.\,Y.\,S.\textsuperscript{5}, Jacob Machado, D.\textsuperscript{5,6,{\color{evento}\faEnvelope[regular]}}, Nishiyama-Júnior, M.\,Y.\textsuperscript{2}, Silva, M.\,J.\,J.\textsuperscript{1,3}\par}
+\vspace{0.3cm}
 {\fontsize{21}{25}\selectfont
  \textsuperscript{1}Laboratório de Ecologia e Evolução, Instituto Butantan, São Paulo, Brazil.
  \textsuperscript{2}Laboratório de Toxinologia Aplicada, Instituto Butantan, São Paulo, Brazil.
@@ -165,7 +166,8 @@ The mitochondrial genome is a circular molecule of 10,479\,bp, 63\% longer than 
  \textsuperscript{4}Instituto de Ciências Biomédicas, Universidade de São Paulo, São Paulo, Brazil.
  \textsuperscript{5}Department of Bioinformatics and Genomics, University of North Carolina at Charlotte, Charlotte, NC, USA.
  \textsuperscript{6}Center for Computational Intelligence for Predicting Health and Environmental Risks (CIPHER), University of North Carolina at Charlotte, Charlotte, NC, USA.
- \textsuperscript{*}dmachado@charlotte.edu\par}
+\par\vspace{0.25cm}
+ {\color{evento}\faEnvelope[regular]}~Contact: igor.oliveira.esib@esib.butantan.gov.br and dmachado@charlotte.edu\hspace{1cm}{\color{evento}\faGlobe}~phyloinformatics.com\par}
 \end{minipage}};
 
 % logo do evento (obrigatorio), alinhado ao topo do titulo e a margem direita;

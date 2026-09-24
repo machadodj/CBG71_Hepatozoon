@@ -46,4 +46,6 @@ The license does not cover material owned by others. The logos belong to their o
 
 ## Contact
 
+Igor Salles de Oliveira, igor.oliveira.esib@esib.butantan.gov.br
+
 Denis Jacob Machado, dmachado@charlotte.edu
